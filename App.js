@@ -32,6 +32,20 @@ function App() {
         <hr />
         <List/>
         <Search/>
+        <p>some text</p>
+        <button> some button</button>
+        <List/>
+        <p>some text</p>
+        <button> some button</button>
+        <p color="red">some text</p>
+        <button > my button</button>
+        <p>some text</p>
+        <button> some button</button>
+        <p>some text</p>
+        <button> some button</button>
+        <List/>
+        
+
       </header>
     </div>
   );
@@ -62,5 +76,15 @@ function Search(){
     </div>
   );
 }
+
+function tick(){
+  const elem = (
+  <div>
+    <h1>Hello, world!</h1>
+    <h2>It is {new Date().toLocaleDateString()}.</h2>
+  </div>
+  );
+}
+setInterval(tick, 1000);
 
 export default App;
